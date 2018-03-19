@@ -1,0 +1,228 @@
+html{
+   background-color: #24313c;
+
+}
+/*
+    Titre
+*/
+#header {
+    background-image: url('icons/bg.jpeg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color:white;
+    text-align:center;
+    padding:5px;
+    font-size: 80px;
+    height:300px;
+}
+
+/*
+    Element qui contient la map, le filtre de recherche, et le formulaire d'inscription/connexion
+*/
+#wrapper{
+    width: 100%;
+    height: 200px;
+    top:20px;
+    position : relative;
+}
+
+/*
+    Map
+*/
+#map{
+    position: relative;
+    width: 33.333%;
+    height: 200px;
+    float: left;
+}
+/*
+    Filtre de recherche
+*/
+#formFilter{
+    width: 30%;
+    height: 400px;
+    float: left;
+    position: relative;
+    margin:5px;
+}
+
+#author[type=text], #title[type=text]{
+    width:100%;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-image: url('icons/searchicon.png') ;
+    background-color: white;
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+input[type=date]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+/*
+    Connexion et inscription
+*/
+#notconnected{
+    width: 32%;
+    float: left;
+    background-color: #24313c;
+    /*border: 1px solid #a1a1a1;*/
+    margin: 20px;
+}
+
+
+/*
+    Top menu
+*/
+ul#topmenu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li.nav{
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 130px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+/*
+    formulaires
+
+*/
+#signinform input[type=text],#signinform input[type=password]   {
+
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+#signinform input[type=submit]{
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float:left;
+}
+
+#loginform input[type=text],#loginform input[type=password]   {
+    padding: 12px 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+#loginform input[type=submit]{
+    padding: 12px 85px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:    #24313c;
+}
+
+.events{
+    background-color: lightgrey;
+    border: 2px solid #a1a1a1;
+}
+
+
+#results{
+    clear: left;
+    position: relative;
+    top:50px;
+}
+
+.eventtitle {
+    float: left;
+}
+.eventdate {
+    float: left;
+    font-size: 18px;
+    top:8px;
+    position:relative;
+    left:60px;
+}
+
+.eventauthor  {
+    float: left;
+    font-size: 13px;
+    top:18px;
+    position:relative;
+    left:120px;
+}
+
+.eventtext{
+    clear:left;
+}
+
+input[type=button] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#page{
+    float: left;
+    left:500px;position: relative;
+    top:15px;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+    height:30px;
+    width:200px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#signinform{
+    position: absolute;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    top:-20px;
+    width : 32%;
+    border-radius: 15px;
+}
+
